@@ -1,0 +1,34 @@
+<view class="box">
+  <image class="background_img" src="/assets/image/background_img.png"></image>
+  <view class="box_center">
+    <view class="team_names">
+      <text class="team_table">头像:</text>
+        <image class="user_head_img" src="../../assets/image/user_img.jpg"></image>
+      </view>
+    <view class="team_name">
+      <text class="team_table">昵称:</text><input class="input" type="text"
+        placeholder-style="color:#cdcdcd;font-size:30rpx;margin-left:10rpx;" placeholder="昵称"></input>
+    </view>
+    <view class="team_name">
+      <text class="team_table">联系方式:</text><input class="input" type="text"
+        placeholder-style="color:#cdcdcd;font-size:30rpx;margin-left:10rpx;" placeholder="QQ、微信、电话"></input>
+    </view>
+    <view class="team_names">
+      <text class="team_table">游戏信息:</text>
+      <view class="box_add_imgs" bindtap="game_information">
+       <view>LOL</view> 
+       <image class="img_big" src="../../assets/icon/big_white.png"></image>
+      </view>
+    </view>
+    <view class="team_name1">
+      <text class="team_table">个人宣言:</text>
+        <textarea class="team_textrea" bindblur="bindTextAreaBlur" placeholder="个人宣言限制120字"   placeholder-style="color:#cdcdcd;font-size:30rpx;" />
+    </view>
+
+    <view class="box_btn">
+    <view class="btn">
+    保存
+  </view>
+  </view>
+  </view>
+</view>

@@ -1,0 +1,15 @@
+<view class="box">
+  <image class="background_img" src="/assets/image/background_img.png"></image>
+  <view class="new_message">
+    <view class="message_text">
+      用户Aimi申请与您对战，<text class="high_end">王者荣耀高端局SOLO</text> 
+    </view>
+    <view class="message_time">
+      2020.10.10 19:00:00
+    </view>
+    <view class="box_btn">
+      <view class="ok_btn">同意</view>
+      <view class="no_btn">拒绝</view>
+    </view>
+  </view>
+</view>

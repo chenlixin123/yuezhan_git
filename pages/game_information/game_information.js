@@ -1,25 +1,50 @@
-// pages/news/news.js
+// pages/game_information/game_information.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    Option: [
+      {
+        id: '1',
+        name: 'LOL'
+       },
+       {
+        id: '2',
+        name: '王者荣耀'
+       },
+       {
+        id: '3',
+        name: 'CS'
+       }
+    ],
+   isShow: false,
+   current: {},
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    let that = this
+    that.setData({
+      current:that.data.Option[0],
+    })
   },
-//跳转消息详情页
-message_details(){
-  wx.navigateTo({
-    url: '/pages/message_details/message_details',
-  })
-},
+  optionTap(e) {
+    console.log(e)
+   let dataset = e.target.dataset
+   this.setData({
+    current: dataset,
+    isShow: false
+   });
+  },
+  openClose() {
+   this.setData({
+    isShow: !this.data.isShow
+   })
+  },
   /**
    * 生命周期函数--监听页面初次渲染完成
    */

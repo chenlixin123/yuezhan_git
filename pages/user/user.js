@@ -14,7 +14,18 @@ Page({
   onLoad: function (options) {
 
   },
-
+  //跳转个人资料
+  user_details(){
+    wx.navigateTo({
+      url: '/pages/user_details/user_details',
+    })
+  },
+  //跳转个人主页
+  user_homepage(){
+    wx.navigateTo({
+      url: '/pages/user_homepage/user_homepage',
+    })
+  },
   /**
    * 生命周期函数--监听页面初次渲染完成
    */

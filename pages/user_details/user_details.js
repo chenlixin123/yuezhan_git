@@ -1,4 +1,4 @@
-// pages/news/news.js
+// pages/user_details/user_details.js
 Page({
 
   /**
@@ -14,10 +14,10 @@ Page({
   onLoad: function (options) {
 
   },
-//跳转消息详情页
-message_details(){
+//跳转游戏信息
+game_information(){
   wx.navigateTo({
-    url: '/pages/message_details/message_details',
+    url: '/pages/game_information/game_information',
   })
 },
   /**

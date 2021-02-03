@@ -1,2 +1,21 @@
-<!--pages/news/news.wxml-->
-<text>消息</text>
+<view class="box">
+  <image class="background_img" src="/assets/image/background_img.png"></image>
+  <view class="new_message" bindtap="message_details">
+    <image class="message_img" src="../../assets/icon/message(1).png"></image>
+    <view class="message_text">
+      系统消息：Tom申请与您对战
+    </view>
+  </view>
+  <view class="new_message">
+    <image class="message_img" src="../../assets/icon/message(1).png"></image>
+    <view class="message_text">
+      战队聊天室
+    </view>
+  </view>
+  <view class="new_message">
+    <image class="message_img" src="../../assets/icon/message(1).png"></image>
+    <view class="message_text">
+      对战聊天室
+    </view>
+  </view>
+</view>

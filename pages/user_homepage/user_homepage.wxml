@@ -1,0 +1,59 @@
+<view class="box">
+  <view class="box_s"></view>
+  <image class="background_img" src="/assets/image/background_img.png"></image>
+  <view class="user_box">
+    <image class="user_head_img" src="../../assets/image/user_img.jpg" bindtap="user_details"></image>
+    <view class="user_text">
+      <view class="user_text_top" bindtap="user_homepage">
+        <view class="user_name">用户昵称</view>
+        <view class="vip">VIP1</view>
+      </view>
+      <view class="user_text_bottom">
+        <view class="user_text_bottom_details">游戏币:100</view>
+        <view class="user_text_bottom_details">信用值:90</view>
+        <view class="user_text_bottom_details">战力:1000</view>
+      </view>
+    </view>
+    <!-- <image class="user_details" src="../../assets/icon/big(1).png"></image> -->
+  </view>
+  <view style="padding:0rpx 20rpx;font-size:32rpx;color:white;">
+    个性签名：
+  </view>
+  <view style="padding:10rpx 20rpx;font-size:28rpx;color:white;">
+    放弃该放弃的是无奈，放弃不该放弃的是无能，不放弃该放弃的是无知，不放弃不该放弃的是执着。
+  </view>
+  <view style="padding:0rpx 20rpx;font-size:32rpx;color:white;margin-top:40rpx;">
+    对战资料：
+  </view>
+  <view class="echarts">
+    <view class="echart_panel">
+    <view class="echarts_title">
+    总场次
+    </view>
+    <view class="echarts_number">
+    100
+    </view>
+    <ec-canvas ec="{{ ecLine }}"></ec-canvas>
+  </view>
+
+  <view class="echart_panel">
+    <view class="echarts_title">
+    总胜率
+    </view>
+    <view class="echarts_number">
+    80%
+    </view>
+    <ec-canvas ec="{{ ecLine1 }}"></ec-canvas>
+  </view>
+
+  <view class="echart_panel">
+    <view class="echarts_title">
+    综合评分
+    </view>
+    <view class="echarts_number">
+    82
+    </view>
+    <ec-canvas ec="{{ ecLine2 }}"></ec-canvas>
+  </view>
+  </view>
+</view>

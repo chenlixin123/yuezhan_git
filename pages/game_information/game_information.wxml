@@ -1,0 +1,44 @@
+<view class="box">
+  <image class="background_img" src="/assets/image/background_img.png"></image>
+  <view class="top_information_box">
+    <view class="top_information_title">
+      游戏信息：
+      <view class="top_information_text">
+        LOL、小明、9866845687
+      </view>
+    </view>
+    <view class="top_information_delete">
+      删除
+    </view>
+  </view>
+  <view class="center">
+    <view class="team_name">
+      <text class="team_table">游戏名称:</text>
+      <view class="select-box">
+        <view class="select-current" catchtap="openClose">
+          <text class="current_name">{{current.name}}</text>
+        </view>
+        <view class="option-list" wx:if="{{isShow}}" catchtap="optionTap" wx:for="{{Option}}" data-id="{{item.id}}"
+          data-name="{{item.name}}">
+          {{item.name}}
+        </view>
+      </view>
+    </view>
+    <view class="team_name">
+      <text class="team_table">游戏昵称:</text><input class="input" type="text"
+        placeholder-style="color:#cdcdcd;font-size:30rpx;margin-left:10rpx;" placeholder="昵称"></input>
+    </view>
+    <view class="team_name">
+      <text class="team_table">游戏ID:</text><input class="input" type="text"
+        placeholder-style="color:#cdcdcd;font-size:30rpx;margin-left:10rpx;" placeholder="QQ、微信、电话"></input>
+    </view>
+    <view class="btn_box">
+      <view class="btn">
+        取消
+      </view>
+      <view class="btn">
+        提交
+      </view>
+    </view>
+  </view>
+</view>

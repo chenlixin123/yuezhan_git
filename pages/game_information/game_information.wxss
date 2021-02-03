@@ -1,0 +1,123 @@
+.top_information_box{
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 30rpx;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+.top_information_title{
+  display: flex;
+}
+.center{
+  width: 80%;
+  background: white;
+  margin: 0 auto;
+  margin-top: 30%;
+  padding: 30rpx 40rpx;
+  padding-bottom: 100rpx;
+}
+.team_name{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20rpx;
+  margin-bottom: 30rpx;
+  /* border: 1px solid; */
+}
+.team_table{
+  width: 25%;
+  font-size: 28rpx;
+  text-align: left;
+  /* text-align-last: justify; */
+  /* border: 1px solid; */
+}
+.input{
+  /* padding: 0rpx 20rpx; */
+  width: 77%;
+  height: 55rpx;
+  /* line-height: 35rpx; */
+  min-height: 35rpx;
+  border: 1px solid #ddd;
+  border-radius: 10rpx;
+  padding-left: 3%;
+  background: white;
+}
+.select-box {
+  position: relative;
+  width: 80%;
+  height: 55rpx;
+  font-size: 30rpx;
+  /* margin-top: 25rpx; */
+  z-index: 100;
+  /* border: 1px solid; */
+  
+ }
+ .current_name{
+  display: inline-block;
+  width: 80%;
+  height: 60rpx;
+  margin-top: 10rpx;
+  overflow: hidden;
+  text-overflow:ellipsis; 
+  white-space: nowrap;
+  text-align: center;
+  font-size: 27rpx;
+  /* border: 1px solid red; */
+ }
+ .select-current {
+  position: relative;
+  width: 100%;
+  height: 60rpx;
+  padding: 0 20rpx;
+  border: 1rpx solid #ddd;
+  background: white;
+  border-radius: 10rpx;
+  box-sizing: border-box;
+  text-overflow : ellipsis;
+ }
+  
+ .select-current::after {
+  position: absolute;
+  display: block;
+  right: 16rpx;
+  top: 25rpx;
+  z-index: 100;
+  content: '';
+  width: 0;
+  height: 0;
+  border: 10rpx solid transparent;
+  border-top: 10rpx solid black;
+ }
+ .option-list{
+  overflow: hidden;
+  text-overflow:ellipsis; 
+  white-space: nowrap;
+  width: 80%;
+  background: white;
+  text-align: center;
+  /* border-radius: 10rpx; */
+  font-size: 27rpx;
+ }
+ .btn_box{
+   width: 80%;
+   height: 60rpx;
+   /* border: 1px solid; */
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   justify-items: center;
+   margin: 0 auto;
+   margin-top: 100rpx;
+ }
+ .btn{
+   width: 150rpx;
+   height: 60rpx;
+   line-height: 60rpx;
+   text-align: center;
+   border-radius: 10rpx;
+   background: #1EAEA4;
+   font-size: 30rpx;
+   /* border: 1px solid; */
+ }

@@ -1,2 +1,38 @@
-<!--pages/user/user.wxml-->
-<text>我的</text>
+<view class="box">
+  <image class="background_img" src="/assets/image/background_img.png"></image>
+  <view class="user_box">
+    <image class="user_head_img" src="../../assets/image/user_img.jpg" bindtap="user_details"></image>
+    <view class="user_text">
+      <view class="user_text_top" bindtap="user_homepage">
+        <view class="user_name">用户昵称</view>
+        <view class="vip">VIP1</view>
+      </view>
+      <view class="user_text_bottom">
+        <view class="user_text_bottom_details">游戏币:100</view>
+        <view class="user_text_bottom_details">信用值:90</view>
+        <view class="user_text_bottom_details">战力:1000</view>
+      </view>
+    </view>
+    <!-- <image class="user_details" src="../../assets/icon/big(1).png"></image> -->
+  </view>
+  <view class="my_wallet">
+    <view class="my_wallet_text">我的钱包</view>
+    <image class="my_wallet_img" src="../../assets/icon/big(1).png"></image>
+  </view>
+  <view class="my_wallets">
+    <view class="my_wallet_text">我的挑战</view>
+    <image class="my_wallet_img" src="../../assets/icon/big(1).png"></image>
+  </view>
+  <view class="my_wallets">
+    <view class="my_wallet_text">我的比赛</view>
+    <image class="my_wallet_img" src="../../assets/icon/big(1).png"></image>
+  </view>
+  <view class="my_wallet">
+    <view class="my_wallet_text">兑换记录</view>
+    <image class="my_wallet_img" src="../../assets/icon/big(1).png"></image>
+  </view>
+  <view class="my_wallet">
+    <view class="my_wallet_text">设置</view>
+    <image class="my_wallet_img" src="../../assets/icon/big(1).png"></image>
+  </view>
+</view>

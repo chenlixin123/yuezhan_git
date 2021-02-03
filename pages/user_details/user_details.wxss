@@ -1,0 +1,100 @@
+.box_center{
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 50rpx;
+}
+.team_name{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20rpx;
+  margin-bottom: 30rpx;
+  /* border: 1px solid; */
+}
+.team_name1{
+  width: 100%;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  margin-top: 20rpx;
+  margin-bottom: 30rpx;
+}
+.team_table{
+  width: 25%;
+  color: white;
+  font-size: 28rpx;
+  text-align: left;
+  /* text-align-last: justify; */
+  /* border: 1px solid; */
+}
+.input{
+  /* padding: 0rpx 20rpx; */
+  width: 77%;
+  height: 55rpx;
+  /* line-height: 35rpx; */
+  min-height: 35rpx;
+  border: 1px solid #cdbed6;
+  border-radius: 10rpx;
+  padding-left: 3%;
+  background: white;
+}
+ .img_add{
+   width: 80rpx;
+   height: 80rpx;
+ }
+ .box_add_img{
+   width: 80%;
+ }
+.box_add_imgs{
+  display: flex;
+  align-items: center;
+  color: white;
+}
+ .team_textrea{
+   width: 77%;
+   height: 200rpx;
+   min-height: 200rpx;
+   padding-left: 3%;
+   padding-top: 1%;
+  border:1px solid #cdcdcd;
+  height:100rpx;
+  background: white;
+ }
+ .box_btn{
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 350rpx;
+}
+.btn{
+  width: 60%;
+  height: 70rpx;
+  line-height: 70rpx;
+  background: #34BEC3;
+  text-align: center;
+  border-radius: 10rpx;
+}
+.team_names{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  justify-items: center;
+  margin-top: 20rpx;
+  margin-bottom: 30rpx;
+  /* border: 1px solid; */
+}
+.user_head_img{
+  width: 80rpx;
+   height: 80rpx;
+   border-radius: 60rpx;
+   margin-right: 20rpx;
+   /* border: 1px solid; */
+}
+.img_big{
+  width: 30rpx;
+  height: 40rpx;
+  margin-left: 30rpx;
+}

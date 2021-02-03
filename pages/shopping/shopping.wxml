@@ -1,2 +1,78 @@
-<!--pages/detail/detail.wxml-->
-<text>商城</text>
+<view class="body">
+  <!-- <image class="background_img" src="/assets/image/background_img.png"></image> -->
+  <view class="nav bc_white">
+    <view class="{{selected?'red':'default'}}" bindtap="selected">全部</view>
+    <view class="{{selected1?'red':'default'}}" bindtap="selected1">视频会员</view>
+    <view class="{{selected2?'red':'default'}}" bindtap="selected2">游戏皮肤</view>
+    <view class="{{selected3?'red':'default'}}" bindtap="selected3">话费</view>
+  </view>
+  <!-- 全部 -->
+  <view class="{{selected?'show':'hidden'}}">
+    <view class="content">
+      <view class="content_content" wx:for="{{data_tencel}}">
+        <image class="content_img" src="../../assets/image/image2.jpg"></image>
+        <view class="content_text">
+          <view class="tence">
+            腾讯视频，会员月卡
+          </view>
+          <view class="prize">
+            3500游戏币<view class="vip">VIP 8折</view>
+          </view>
+          <view class="btn">立即兑换</view>
+        </view>
+      </view>
+
+    </view>
+  </view>
+  <!-- 视频会员 -->
+  <view class="{{selected1?'show':'hidden'}}">
+    <view class="content">
+      <view class="content_content" wx:for="{{data_tencel}}">
+        <image class="content_img" src="../../assets/image/image2.jpg"></image>
+        <view class="content_text">
+          <view class="tence">
+            腾讯视频，会员月卡
+          </view>
+          <view class="prize">
+            3500游戏币<view class="vip">VIP 8折</view>
+          </view>
+          <view class="btn">立即兑换</view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <!-- 游戏皮肤 -->
+  <view class="{{selected2?'show':'hidden'}}">
+    <view class="content" bindtap="details">
+      <view class="content_content" wx:for="{{data_tencel}}">
+        <image class="content_img" src="../../assets/image/image2.jpg"></image>
+        <view class="content_text">
+          <view class="tence">
+            腾讯视频，会员月卡
+          </view>
+          <view class="prize">
+            3500游戏币<view class="vip">VIP 8折</view>
+          </view>
+          <view class="btn">立即兑换</view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <!-- 话费 -->
+  <view class="{{selected3?'show':'hidden'}}">
+    <view class="content" bindtap="details">
+      <view class="content_content" wx:for="{{data_tencel}}">
+        <image class="content_img" src="../../assets/image/image2.jpg"></image>
+        <view class="content_text">
+          <view class="tence">
+            腾讯视频，会员月卡
+          </view>
+          <view class="prize">
+            3500游戏币<view class="vip">VIP 8折</view>
+          </view>
+          <view class="btn">立即兑换</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

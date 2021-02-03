@@ -1,9 +1,9 @@
 {
   "pages": [
+    "pages/user/user",
+    "pages/news/news",
     "pages/index/index",
     "pages/shopping/shopping",
-    "pages/news/news",
-    "pages/user/user",
     "pages/fight/fight",
     "pages/fight_details/fight_details",
     "pages/match/match",
@@ -11,7 +11,11 @@
     "pages/ranking_list/ranking_list",
     "pages/Team/Team",
     "pages/team_details/team_details",
-    "pages/add_team/add_team"
+    "pages/add_team/add_team",
+    "pages/message_details/message_details",
+    "pages/user_details/user_details",
+    "pages/game_information/game_information",
+    "pages/user_homepage/user_homepage"
   ],
   "window": {
     "backgroundTextStyle": "light",
