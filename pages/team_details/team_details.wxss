@@ -1,0 +1,223 @@
+.box{
+  width: 100%;
+  height: 100vh;
+}
+.background_img{
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -3;
+}
+.bgm{
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(255, 255, 255, .3);
+  z-index: -2;
+}
+.box_center{
+  width: 100%;
+  height: 560rpx;
+  background: rgba(149, 70, 204, .7);
+  border-bottom-right-radius: 30rpx;
+  border-bottom-left-radius: 30rpx;
+  /* border: 1px solid; */
+}
+.box_center_top{
+  display: flex;
+}
+.content_title{
+  font-weight: bold;
+  color: white;
+  font-size: 28rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  /* border: 1px solid; */
+}
+.center_text{
+  font-size: 25rpx;
+  margin-left: 50rpx;
+  margin-right: 30rpx;
+  margin-top: 55rpx;
+  color: white;
+  /* border: 1px solid; */
+}
+.number{
+  height: 50rpx;
+  line-height: 50rpx;
+}
+.model{
+  height: 50rpx;
+  line-height: 50rpx;
+}
+.information{
+  display: flex;
+}
+.img{
+  width: 250rpx;
+  height: 260rpx;
+  margin-top: 65rpx;
+  margin-left: 30rpx;
+}
+.box_center_bottom{
+  font-size: 25rpx;
+  color: white;
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+}
+.box_center_bottom_title{
+  font-size: 31rpx;
+  font-weight: bold;
+  color: white;
+  margin-top: 30rpx;
+  margin-bottom: 10rpx;
+}
+.box_user_title{
+  height: 60rpx;
+  margin-left: 30rpx;
+  margin-top: 10rpx;
+  color: white;
+}
+.box_users{
+  width: 100%;
+  margin: 0 auto;
+  /* border: 1px solid white; */
+  display: flex;
+  flex-wrap: wrap;
+}
+.box_user{
+  width: 20%;
+  margin-top: 10rpx;
+  margin-bottom: 10rpx;
+  text-align: center;
+  /* border: 1px solid; */
+}
+.add_user{
+  width: 20%;
+  margin-top: 10rpx;
+  margin-bottom: 10rpx;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid; */
+}
+.user_img{
+  width: 70rpx;
+  height: 70rpx;
+  border-radius: 60rpx;
+  /* border: 1px solid; */
+}
+.user_img_add{
+  width: 70rpx;
+  height: 70rpx;
+  border-radius: 60rpx;
+}
+.user_name{
+  /* border: 1px solid; */
+  font-size: 27rpx;
+  color: white;
+  margin-top: -10rpx;
+  overflow: hidden;
+  white-space: nowrap
+  ;text-overflow: ellipsis;
+}
+.achievements{
+  padding-bottom: 90rpx;
+}
+.achievements_title{
+  height: 60rpx;
+  margin-left: 30rpx;
+  margin-top: 10rpx;
+  color: white;
+}
+.achievements_titles{
+  width: 98%;
+  height: 80rpx;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: space-around;
+  justify-items: center;
+  background: rgba(255,255,255,.3);
+  font-size: 28rpx;
+  margin: 0 auto;
+  margin-top: 5rpx;
+  border-radius: 15rpx;
+}
+.achievements_title_small{
+  width: 17%;
+  text-align: center;
+  overflow: hidden;
+  text-overflow:ellipsis; 
+  white-space: nowrap;
+  /* border: 1px solid; */
+}
+.bottoms{
+  width: 98%;
+  height: 80rpx;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: space-around;
+  justify-items: center;
+  background: rgba(255,255,255,.3);
+  font-size: 28rpx;
+  margin: 0 auto;
+  margin-top: 5rpx;
+  border-radius: 15rpx;
+}
+.bottom_title{
+  width: 17%;
+  text-align: center;
+  overflow: hidden;
+  text-overflow:ellipsis; 
+  white-space: nowrap;
+  /* border: 1px solid; */
+}
+.bottom_titles1{
+  width: 32%;
+  text-align: center;
+}
+.bottom_titles{
+  width: 32%;
+  display: flex;
+  /* border: 1px solid; */
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.bottom_user_name{
+  text-align: center;
+  overflow: hidden;
+  text-overflow:ellipsis; 
+  white-space: nowrap;
+  width: 80%;
+}
+.bottom_user_img{
+  width: 60rpx;
+  height: 60rpx;
+  border-radius: 50rpx;
+}
+.box_btn{
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  left: 0;
+  bottom: 10rpx;
+}
+.btn{
+  width: 60%;
+  height: 70rpx;
+  line-height: 70rpx;
+  background: #34BEC3;
+  text-align: center;
+  border-radius: 10rpx;
+}

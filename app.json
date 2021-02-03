@@ -1,0 +1,56 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/shopping/shopping",
+    "pages/news/news",
+    "pages/user/user",
+    "pages/fight/fight",
+    "pages/fight_details/fight_details",
+    "pages/match/match",
+    "pages/match_details/match_details",
+    "pages/ranking_list/ranking_list",
+    "pages/Team/Team",
+    "pages/team_details/team_details",
+    "pages/add_team/add_team"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarTitleText": "首页",
+    "navigationBarBackgroundColor": "#C069FA",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#ddd",
+    "selectedColor": "#C069FA",
+    "backgroundColor": "#fff",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "assets/icon/home_no.png",
+        "selectedIconPath": "assets/icon/home.png"
+      },
+      {
+        "pagePath": "pages/shopping/shopping",
+        "text": "商城",
+        "iconPath": "assets/icon/shopping_no.png",
+        "selectedIconPath": "assets/icon/shopping.png"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "text": "消息",
+        "iconPath": "assets/icon/message_no.png",
+        "selectedIconPath": "assets/icon/message.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "assets/icon/user_no.png",
+        "selectedIconPath": "assets/icon/user.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

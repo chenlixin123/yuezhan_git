@@ -1,0 +1,108 @@
+<view class="box">
+  <image class="background_img" src="/assets/image/background_img.png"></image>
+<view class="top">
+  <!-- one -->
+  <view class="select-box">
+  <view class="select-current" catchtap="openClose">
+    <text class="current_name">{{current.name}}</text>
+  </view>
+  <view class="option-list" wx:if="{{isShow}}" catchtap="optionTap" wx:for="{{Option}}" data-id="{{item.id}}"
+      data-name="{{item.name}}">
+      {{item.name}}
+  </view>
+</view>
+<!-- two -->
+<view class="select-box" >
+  <view class="select-current" catchtap="openClose1">
+    <text class="current_name">{{current1.name}}</text>
+  </view>
+  <view class="option-list" wx:if="{{isShow1}}" catchtap="optionTap1" wx:for="{{Option1}}" data-id="{{item.id}}"
+      data-name="{{item.name}}">
+      {{item.name}}
+  </view>
+</view>
+<!-- three -->
+<view class="select-box">
+  <view class="select-current" catchtap="openClose2">
+    <text class="current_name">{{current2.name}}</text>
+  </view>
+  <view class="option-list" wx:if="{{isShow2}}" catchtap="optionTap2" wx:for="{{Option2}}" data-id="{{item.id}}"
+      data-name="{{item.name}}">
+      {{item.name}}
+  </view>
+</view>
+<!-- four -->
+<view class="select-box">
+  <view class="select-current" catchtap="openClose3">
+    <text class="current_name">{{current3.name}}</text>
+  </view>
+  <view class="option-list" wx:if="{{isShow3}}" catchtap="optionTap3" wx:for="{{Option3}}" data-id="{{item.id}}"
+      data-name="{{item.name}}">
+      {{item.name}}
+  </view>
+</view>
+</view>
+<view class="content" bindtap="details">
+  <image class="content_img" src="../../assets/image/image2.jpg"></image>
+  <view class="content_text">
+    <view class="content_title">
+      王者荣耀高端局SOLO
+    </view>
+    <view class="content_time">
+      比赛时间：2020.10.20 10:00
+    </view>
+    <view class="content_time">
+      比赛方式：线上
+    </view>
+    <view class="prize">
+      比赛奖品：100币
+    </view>
+    <view class="send_user">
+      发起人：张三丰
+    </view>
+  </view>
+  <view class="content_btn" bindtap="challenge">加入</view>
+</view>
+<view class="content" bindtap="details">
+  <image class="content_img" src="../../assets/image/image2.jpg"></image>
+  <view class="content_text">
+    <view class="content_title">
+      王者荣耀高端局SOLO
+    </view>
+    <view class="content_time">
+      比赛时间：2020.10.20 10:00
+    </view>
+    <view class="content_time">
+      比赛方式：线上
+    </view>
+    <view class="prize">
+      比赛奖品：100币
+    </view>
+    <view class="send_user">
+      发起人：张三丰
+    </view>
+  </view>
+  <view class="content_btn" bindtap="challenge">加入</view>
+</view>
+<view class="content" bindtap="details">
+  <image class="content_img" src="../../assets/image/image2.jpg"></image>
+  <view class="content_text">
+    <view class="content_title">
+      王者荣耀高端局SOLO
+    </view>
+    <view class="content_time">
+      比赛时间：2020.10.20 10:00
+    </view>
+    <view class="content_time">
+      比赛方式：线上
+    </view>
+    <view class="prize">
+      比赛奖品：100币
+    </view>
+    <view class="send_user">
+      发起人：张三丰
+    </view>
+  </view>
+  <view class="content_btn" bindtap="challenge">加入</view>
+</view>
+</view>

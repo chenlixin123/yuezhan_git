@@ -1,0 +1,38 @@
+<view class="box">
+  <image class="background_img" src="/assets/image/background_img.png"></image>
+  <view class="top">
+    <view class="top_title">
+      排名
+    </view>
+    <view class="top_titles1">
+      用户名
+    </view>
+    <view class="top_title">
+      胜率
+    </view>
+    <view class="top_title">
+      信用值
+    </view>
+    <view class="top_title">
+      游戏币
+    </view>
+  </view>
+  <view class="tops" wx:for="{{data}}">
+    <view class="top_title">
+      {{index + 1}}
+    </view>
+    <view class="top_titles">
+      <image class="user_img" src="../../assets/image/user_img.jpg"></image>
+      <view class="user_name">转身一世琉璃白55555555555</view>
+    </view>
+    <view class="top_title">
+      100%
+    </view>
+    <view class="top_title">
+      99%
+    </view>
+    <view class="top_title">
+      5000
+    </view>
+  </view>
+</view>

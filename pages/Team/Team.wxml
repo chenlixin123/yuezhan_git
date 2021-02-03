@@ -1,0 +1,56 @@
+<view class="body">
+  <image class="background_img" src="/assets/image/background_img.png"></image>
+  <view class="nav bc_white">
+    <view class="{{selected?'red':'default'}}" bindtap="selected">推荐战队</view>
+    <view class="{{selected1?'red':'default'}}" bindtap="selected1">我的战队</view>
+  </view>
+  <!-- 推荐战队 -->
+  <view class="{{selected?'show':'hidden'}}">
+    <view class="content" bindtap="details">
+  <image class="content_img" src="../../assets/image/image2.jpg"></image>
+  <view class="content_text">
+    <view class="content_title">
+      北理工LOL王者战队
+    </view>
+    <view class="content_time">
+      区服：艾欧尼亚
+    </view>
+    <view class="prize">
+      人数：5人
+    </view>
+    <view class="details">
+      <view class="men_number">游戏币1000</view>
+      <view class="winning">胜率98%</view>
+      <view class="winning1">场次1000</view>
+      <view class="credit">信用值80%</view>
+    </view>
+  </view>
+</view>
+  </view>
+  <!-- 我的战队 -->
+  <view class="{{selected1?'show':'hidden'}}">
+    <view class="content" bindtap="details">
+  <image class="content_img" src="../../assets/image/image2.jpg"></image>
+  <view class="content_text">
+    <view class="content_title">
+      北理工LOL王者战队
+    </view>
+    <view class="content_time">
+      区服：艾欧尼亚
+    </view>
+    <view class="prize">
+      人数：5人
+    </view>
+    <view class="details">
+      <view class="men_number">游戏币1000</view>
+      <view class="winning">胜率98%</view>
+      <view class="winning1">场次1000</view>
+      <view class="credit">信用值80%</view>
+    </view>
+  </view>
+</view>
+  </view>
+  <view class="{{selected1?'show':'hidden'}}" style="width: 100%;position: fixed;left: 0;bottom: 100rpx;text-align: center;">
+    <image class="add_img" src="../../assets/icon/add.png" bindtap="add_team"></image>
+  </view>
+</view>

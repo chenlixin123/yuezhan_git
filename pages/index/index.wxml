@@ -1,0 +1,115 @@
+<view class="box">
+<view class="search">
+  <view class="address">
+    北京
+  </view>
+    <input class="input_search" type="text" placeholder="玩家名称/对战名称/赛事名称" placeholder-style="color:#ddd;font-size:30rpx;" />
+</view>
+<view class="carousel"> 
+  <swiper indicator-dots="true" autoplay="true" interval="5000" duration="500" indicator-dots="true" style="width:100%;height:300rpx;">
+        <block wx:for="{{image_data}}" wx:key="{{item.id}}">
+          <swiper-item>
+            <image style="width:100%;height:300rpx;" src="{{item.path}}" alt=""></image>
+          </swiper-item>
+        </block>
+      </swiper>
+</view>
+<view class="icons">
+  <view class="icon" bindtap="fight">
+    <image class="icon_img" src="../../assets/icon/duizhan.png"></image> 
+    <view class="icon_text">对战中心</view>
+  </view>
+  <view class="icon" bindtap="match">
+    <image class="icon_img" src="../../assets/icon/bisai.png"></image>
+    <view class="icon_text">比赛中心</view>
+  </view>
+  <view class="icon" bindtap="ranking">
+    <image class="icon_img" src="../../assets/icon/paihang.png"></image>
+    <view class="icon_text">排行榜</view>
+  </view>
+  <view class="icon" bindtap="team">
+    <image class="icon_img" src="../../assets/icon/zhandui.png"></image>
+    <view class="icon_text">战队列表</view>
+  </view>
+</view>
+<view class="news">
+  <view class="new">
+    通知：您正在参与2020-1010 xxx挑战
+  </view>
+  <view class="new_but" bindtap="watch">
+    查看详情
+  </view>
+</view>
+<view class="content">
+  <image class="content_img" src="../../assets/image/image2.jpg"></image>
+  <view class="content_text">
+    <view class="content_title">
+      王者荣耀高端局SOLO
+    </view>
+    <view class="content_time">
+      挑战时间：2020.10.20 10:00
+    </view>
+    <view class="prize">
+      奖品：100币
+    </view>
+    <view class="send_user">
+      发起人：张三丰
+    </view>
+    <view class="details">
+      <view class="men_number">单人</view>
+      <view class="winning">胜率98%</view>
+      <view class="credit">信用值80%</view>
+    </view>
+  </view>
+  <view class="content_btn" bindtap="challenge">挑战TA</view>
+</view>
+<view class="content">
+  <image class="content_img" src="../../assets/image/image2.jpg"></image>
+  <view class="content_text">
+    <view class="content_title">
+      王者荣耀高端局SOLO
+    </view>
+    <view class="content_time">
+      挑战时间：2020.10.20 10:00
+    </view>
+    <view class="prize">
+      奖品：100币
+    </view>
+    <view class="send_user">
+      发起人：张三丰
+    </view>
+    <view class="details">
+      <view class="men_number">单人</view>
+      <view class="winning">胜率98%</view>
+      <view class="credit">信用值80%</view>
+    </view>
+  </view>
+  <view class="content_btn" bindtap="challenge">挑战TA</view>
+</view>
+<view class="content">
+  <image class="content_img" src="../../assets/image/image2.jpg"></image>
+  <view class="content_text">
+    <view class="content_title">
+      王者荣耀高端局SOLO
+    </view>
+    <view class="content_time">
+      挑战时间：2020.10.20 10:00
+    </view>
+    <view class="prize">
+      奖品：100币
+    </view>
+    <view class="send_user">
+      发起人：张三丰
+    </view>
+    <view class="details">
+      <view class="men_number">单人</view>
+      <view class="winning">胜率98%</view>
+      <view class="credit">信用值80%</view>
+    </view>
+  </view>
+  <view class="content_btn" bindtap="challenge">挑战TA</view>
+</view>
+<!-- <cover-view class="add" bindtap="add">
++
+</cover-view> -->
+</view>

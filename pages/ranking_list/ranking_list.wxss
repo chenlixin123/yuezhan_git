@@ -1,0 +1,68 @@
+.box{
+  width: 100%;
+  height: 100vh;
+}
+.background_img{
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -3;
+}
+.top{
+  width: 98%;
+  height: 80rpx;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: space-around;
+  justify-items: center;
+  margin: 0 auto;
+}
+.tops{
+  width: 98%;
+  height: 80rpx;
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: space-around;
+  justify-items: center;
+  background: rgba(255,255,255,.3);
+  font-size: 28rpx;
+  margin: 0 auto;
+  margin-top: 5rpx;
+  border-radius: 15rpx;
+}
+.top_title{
+  width: 17%;
+  text-align: center;
+  overflow: hidden;
+  text-overflow:ellipsis; 
+  white-space: nowrap;
+  /* border: 1px solid; */
+}
+.top_titles1{
+  width: 32%;
+  text-align: center;
+}
+.top_titles{
+  width: 32%;
+  display: flex;
+  /* border: 1px solid; */
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+}
+.user_name{
+  text-align: center;
+  overflow: hidden;
+  text-overflow:ellipsis; 
+  white-space: nowrap;
+  width: 80%;
+}
+.user_img{
+  width: 60rpx;
+  height: 60rpx;
+  border-radius: 50rpx;
+}

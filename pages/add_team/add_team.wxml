@@ -1,0 +1,40 @@
+<view class="box">
+  <image class="background_img" src="/assets/image/background_img.png"></image>
+  <view class="box_center">
+    <view class="team_name">
+      <text class="team_table">战队名称:</text><input class="input" type="text"
+        placeholder-style="color:#cdcdcd;font-size:30rpx;margin-left:20rpx;" placeholder="请输入"></input>
+    </view>
+    <view class="team_name">
+      <text class="team_table">人数上限:</text>
+      <view class="select-box">
+        <view class="select-current" catchtap="openClose">
+          <text class="current_name">{{current.name}}</text>
+        </view>
+        <view class="option-list" wx:if="{{isShow}}" catchtap="optionTap" wx:for="{{Option}}" data-id="{{item.id}}"
+          data-name="{{item.name}}">
+          {{item.name}}
+        </view>
+      </view>
+    </view>
+    <view class="team_name">
+      <text class="team_table">战队头像:</text>
+      <view class="box_add_img">
+        <image class="img_add" src="../../assets/icon/add1.png"></image>
+      </view>
+    </view>
+    <view class="team_name1">
+      <text class="team_table">战队简介:</text>
+        <textarea class="team_textrea" bindblur="bindTextAreaBlur" placeholder="战队简介限制120字"   placeholder-style="color:#cdcdcd;font-size:30rpx;" />
+    </view>
+    <view class="team_name">
+      <text class="team_table">联系方式:</text><input class="input" type="text"
+        placeholder-style="color:#cdcdcd;font-size:30rpx;margin-left:20rpx;" placeholder="请输入"></input>
+    </view>
+    <view class="box_btn">
+    <view class="btn">
+    创建战队
+  </view>
+  </view>
+  </view>
+</view>

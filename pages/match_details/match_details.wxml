@@ -1,0 +1,45 @@
+<view class="box">
+  <image class="background_img" src="/assets/image/background_img.png"></image>
+  <!-- <view class="bgm"></view> -->
+  <view class="box_center">
+    <view class="box_center_top">
+      <image class="img" src="../../assets/image/zhandui.jpg"></image>
+      <view class="center_text">
+        <view class="content_title">
+          北理工LOL王者战队<text style="margin-left:50rpx;">个人</text>
+        </view>
+        <view>
+          挑战项目：LOL
+        </view>
+        <view>
+          挑战赛制：BO1
+        </view>
+        <view>
+          挑战时间：2021-10-10 10:00
+        </view>
+        <view>
+           奖品：100游戏币
+        </view>
+        <view>
+          比赛地址：线下
+        </view>
+        <view>
+          报名费用：免费
+        </view>
+      </view>
+    </view>
+    <view class="box_center_bottom">
+      <view class="box_center_bottom_title">
+        挑战规则
+      </view>
+      <view>
+        挑战规则，遵守秩序，不许打人，不许犯规，不许开挂，不许说话，不许偷看别人的战绩和战术，做一个遵纪守法的好公民。
+      </view>
+    </view>
+  </view>
+  <view class="box_btn">
+    <view class="btn">联系TA</view>
+    <view class="btn">挑战</view>
+    <view class="btn">分享</view>
+  </view>
+</view>
