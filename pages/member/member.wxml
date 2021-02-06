@@ -1,0 +1,82 @@
+<view class="box">
+  <image class="background_img" src="/assets/image/background_img.png"></image>
+  <view class="user_box">
+    <image class="user_head_img" src="../../assets/image/user_img.jpg"></image>
+    <view class="user_text">
+      <view class="user_text_top">
+        <view class="user_name">用户昵称</view>
+      </view>
+      <view class="user_text_bottom">
+        <view class="user_text_bottom_details">您还不是会员</view>
+      </view>
+    </view>
+    <!-- <image class="user_details" src="../../assets/icon/big(1).png"></image> -->
+  </view>
+  <view class="member_meal_title">
+    会员套餐
+  </view>
+  <view class="member_meal_box">
+    <view class="member_meal">
+      <view class="member_text">月卡</view>
+      <view class="member_text">￥10</view>
+      <view class="delete_text">￥15</view>
+      <view class="member_text">限时特惠</view>
+    </view>
+    <view class="member_meal">
+      <view class="member_text">月卡</view>
+      <view class="member_text">￥10</view>
+      <view class="delete_text">￥15</view>
+      <view class="member_text">限时特惠</view>
+    </view>
+    <view class="member_meal">
+      <view class="member_text">月卡</view>
+      <view class="member_text">￥10</view>
+      <view class="delete_text">￥15</view>
+      <view class="member_text">限时特惠</view>
+    </view>
+  </view>
+  <view class="member_meal_title">
+    会员特权
+  </view>
+  <view>
+    <view class="member_privilege_title">会员特权一</view>
+  <view class="member_privilege_box">
+    <image class="member_privilege_img" src="../../assets/image/image2.jpg"></image>
+    <view class="member_privilege_text">无限制发布挑战</view>
+  </view>
+  </view>
+  <view>
+    <view class="member_privilege_title">会员特权二</view>
+  <view class="member_privilege_box">
+    <image class="member_privilege_img" src="../../assets/image/image2.jpg"></image>
+    <view class="member_privilege_text">商城尊享VIP折扣</view>
+  </view>
+  </view>
+
+  <view>
+    <view class="member_privilege_title">会员特权三</view>
+  <view class="member_privilege_box">
+    <image class="member_privilege_img" src="../../assets/image/image2.jpg"></image>
+    <view class="member_privilege_text">专享快速匹配</view>
+  </view>
+  </view>
+
+  <view>
+    <view class="member_privilege_title">会员特权四</view>
+  <view class="member_privilege_box">
+    <image class="member_privilege_img" src="../../assets/image/image2.jpg"></image>
+    <view class="member_privilege_text">无限创建战队</view>
+  </view>
+  </view>
+
+  <view style="padding-bottom:120rpx;">
+    <view class="member_privilege_title">会员特权五</view>
+  <view class="member_privilege_box">
+    <image class="member_privilege_img" src="../../assets/image/image2.jpg"></image>
+    <view class="member_privilege_text">免费上推荐</view>
+  </view>
+  </view>
+<view class="btn_box">
+  <view class="btn">立即支付10元</view>
+</view>
+</view>

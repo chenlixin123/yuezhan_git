@@ -1,0 +1,131 @@
+.user_box{
+  width: 95%;
+  height: 250rpx;
+  background: rgba(255, 255, 255, 1);
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+.user_head_img{
+  width: 200rpx;
+  height: 180rpx;
+  border-radius: 200rpx;
+  margin-left: 20rpx;
+}
+.user_text{
+  width: 80%;
+  height: 200rpx;
+  margin-left: 30rpx;
+  /* border: 1px solid; */
+}
+.user_details{
+  width: 70rpx;
+  height: 70rpx;
+}
+.user_text_top,.user_text_bottom{
+  width: 100%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  /* border: 1px solid; */
+}
+.user_name{
+  margin-left: 30rpx;
+  font-weight: bold;
+  max-width: 350rpx;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  /* border: 1px solid; */
+}
+.vip{
+  border-radius: 20rpx;
+  font-size: 26rpx;
+  background: #E9D83C;
+  padding: 5rpx 30rpx;
+  margin-left: 30rpx;
+}
+.user_text_bottom{
+  font-size: 25rpx;
+}
+.user_text_bottom_details{
+  border-radius: 10rpx;
+  /* background: #1EAEA4; */
+  padding: 5rpx 10rpx;
+  margin-right: 30rpx;
+}
+.member_meal_title{
+  margin-left: 30rpx;
+  color: white;
+  font-size: 33rpx;
+  font-weight: bold;
+  margin-top: 30rpx;
+  margin-bottom: 20rpx;
+}
+.member_meal_box{
+  /* border: 1px solid; */
+  width: 90%;
+  height: 220rpx;
+  margin: 0 auto;
+  margin-top: 10rpx;
+  display: flex;
+  justify-content: space-between;
+}
+.member_meal{
+  width: 28%;
+  height: 220rpx;
+  text-align: center;
+  background: white;
+}
+.member_text{
+  font-weight: bold;
+  font-size: 30rpx;
+}
+.delete_text{
+  text-decoration:line-through;
+  color:#7A867A;
+}
+.member_privilege_title{
+  margin-left: 30rpx;
+  width: 200rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  text-align: center;
+  background: white;
+  font-size: 30rpx;
+  border-top-right-radius: 30rpx;
+  border-bottom-right-radius: 30rpx;
+  margin-bottom: 10rpx;
+  margin-top: 20rpx;
+}
+.member_privilege_box{
+  margin-left: 60rpx;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+.member_privilege_img{
+  width: 100rpx;
+  height: 100rpx;
+}
+.member_privilege_text{
+  color: white;
+  margin-left: 20rpx;
+}
+.btn_box{
+  width: 100%;
+  height: 100rpx;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  /* border: 1px solid; */
+}
+.btn{
+  width: 60%;
+  height: 100rpx;
+  line-height: 100rpx;
+  text-align: center;
+  margin: 0 auto;
+  background: #34BEC3;
+  border-radius: 10rpx;
+}

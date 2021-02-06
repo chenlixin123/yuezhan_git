@@ -5,7 +5,7 @@
     <view class="user_text">
       <view class="user_text_top" bindtap="user_homepage">
         <view class="user_name">用户昵称</view>
-        <view class="vip">VIP1</view>
+        <view class="vip" bindtap="member">VIP1</view>
       </view>
       <view class="user_text_bottom">
         <view class="user_text_bottom_details">游戏币:100</view>

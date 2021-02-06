@@ -1,8 +1,8 @@
 {
   "pages": [
+    "pages/index/index",
     "pages/user/user",
     "pages/news/news",
-    "pages/index/index",
     "pages/shopping/shopping",
     "pages/fight/fight",
     "pages/fight_details/fight_details",
@@ -21,7 +21,8 @@
     "pages/my_match/my_match",
     "pages/my_match_details/my_match_details",
     "pages/exchange/exchange",
-    "pages/my_wallet/my_wallet"
+    "pages/my_wallet/my_wallet",
+    "pages/member/member"
   ],
   "window": {
     "backgroundTextStyle": "light",
