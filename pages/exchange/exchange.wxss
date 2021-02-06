@@ -1,0 +1,25 @@
+.record{
+  width: 100%;
+  height: 180rpx;
+  margin-bottom: 3rpx;
+  background: rgba(255, 255, 255, .5);
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+.img{
+  width: 150rpx;
+  height: 150rpx;
+  margin-left: 30rpx;
+}
+.record_right{
+  margin-left: 30rpx;
+  font-size: 28rpx;
+  height: 130rpx;
+  /* border: 1px solid; */
+}
+.record_right_top,.record_right_bottom{
+  height: 65rpx;
+  line-height: 65rpx;
+  /* border: 1px solid; */
+}

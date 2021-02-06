@@ -1,4 +1,4 @@
-// pages/user/user.js
+// pages/my_wallet/my_wallet.js
 Page({
 
   /**
@@ -14,42 +14,7 @@ Page({
   onLoad: function (options) {
 
   },
-  //跳转个人资料
-  user_details(){
-    wx.navigateTo({
-      url: '/pages/user_details/user_details',
-    })
-  },
-  //跳转个人主页
-  user_homepage(){
-    wx.navigateTo({
-      url: '/pages/user_homepage/user_homepage',
-    })
-  },
-  //跳转我的钱包
-  my_wallet(){
-    wx.navigateTo({
-      url: '/pages/my_wallet/my_wallet',
-    })
-  },
-  //跳转我的挑战
-  my_challenge(){
-    wx.navigateTo({
-      url: '/pages/my_challenge/my_challenge',
-    })
-  },
-  //跳转我的比赛
-  my_match(){
-    wx.navigateTo({
-      url: '/pages/my_match/my_match',
-    })
-  },
-  //跳转兑换记录
-  exchange(){
-    wx.navigateTo({
-      url: '/pages/exchange/exchange',
-    })
-  },
+
   /**
    * 生命周期函数--监听页面初次渲染完成
    */

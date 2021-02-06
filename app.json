@@ -15,7 +15,13 @@
     "pages/message_details/message_details",
     "pages/user_details/user_details",
     "pages/game_information/game_information",
-    "pages/user_homepage/user_homepage"
+    "pages/user_homepage/user_homepage",
+    "pages/my_challenge/my_challenge",
+    "pages/challenge_details/challenge_details",
+    "pages/my_match/my_match",
+    "pages/my_match_details/my_match_details",
+    "pages/exchange/exchange",
+    "pages/my_wallet/my_wallet"
   ],
   "window": {
     "backgroundTextStyle": "light",

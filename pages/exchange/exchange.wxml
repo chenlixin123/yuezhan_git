@@ -1,0 +1,10 @@
+<view class="box">
+  <image class="background_img" src="/assets/image/background_img.png"></image>
+  <view class="record" wx:for="{{data}}">
+    <image class="img" src="../../assets/image/image2.jpg"></image>
+    <view class="record_right">
+      <view class="record_right_top">腾讯视频VIP10</view>
+      <view class="record_right_bottom">2020-10-15 10:00:00</view>
+    </view>
+  </view>
+</view>

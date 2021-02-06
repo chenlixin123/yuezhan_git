@@ -77,6 +77,9 @@ Page({
                 chartLine.setOption(option);
             }
         },
+        data:[
+            {},{},{},{},{},{},{},{},{}
+        ],
         ecLine1: {
             onInit: function (canvas, width, height) {
                 //初始化echarts元素，绑定到全局变量，方便更改数据

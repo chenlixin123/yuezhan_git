@@ -98,6 +98,6 @@
       <view class="credit">信用值80%</view>
     </view>
   </view>
-  <view class="content_btn" bindtap="challenge">挑战TA</view>
+  <view class="content_btn" catchtap="challenge">挑战TA</view>
 </view>
 </view>

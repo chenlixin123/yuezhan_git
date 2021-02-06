@@ -1,0 +1,80 @@
+<view class="body">
+  <image class="background_img" src="/assets/image/background_img.png"></image>
+  <view class="nav bc_white">
+    <view class="{{selected?'red':'default'}}" bindtap="selected">待开始</view>
+    <view class="{{selected1?'red':'default'}}" bindtap="selected1">已结束</view>
+  </view>
+  <!-- 待开始 -->
+  <view class="{{selected?'show':'hidden'}}">
+    <view class="content" bindtap="details">
+      <image class="content_img" src="../../assets/image/image2.jpg"></image>
+      <view class="content_text">
+        <view class="content_title">
+          北理工LOL王者战队
+        </view>
+        <view class="content_time">
+          挑战时间：2021.01.20 10:00:00
+        </view>
+        <view class="prize">
+          奖品：100币
+        </view>
+        <view class="prize">
+          发起人：小猴子
+        </view>
+      </view>
+    </view>
+  </view>
+  <!-- 已结束 -->
+  <view class="{{selected1?'show':'hidden'}}">
+    <view class="content" bindtap="details">
+      <image class="content_img" src="../../assets/image/image2.jpg"></image>
+      <view class="content_text">
+        <view class="content_title">
+          北理工LOL王者战队
+        </view>
+        <view class="content_time">
+          挑战时间：2020.10.20 10:00:00
+        </view>
+        <view class="prize">
+          结束时间：2020.10.23 10:00:00
+        </view>
+        <view class="prize">
+          奖品：100币
+        </view>
+      </view>
+      <view class="content_btn" catchtap="challenge">申诉</view>
+    </view>
+  </view>
+  <view class="frame_box" wx:if="{{show}}">
+    <view class="frame">
+      <view class="center">
+        <view class="team_name">
+          <text class="team_table">游戏昵称:</text><input class="input" type="text"
+            placeholder-style="color:#cdcdcd;font-size:30rpx;margin-left:10rpx;" placeholder="昵称"></input>
+        </view>
+        <view class="team_name">
+          <text class="team_table">游戏ID:</text><input class="input" type="text"
+            placeholder-style="color:#cdcdcd;font-size:30rpx;margin-left:10rpx;" placeholder="游戏ID"></input>
+        </view>
+        <view class="team_name">
+          <text class="team_table">联系方式:</text><input class="input" type="text"
+            placeholder-style="color:#cdcdcd;font-size:30rpx;margin-left:10rpx;" placeholder="QQ、微信、电话"></input>
+        </view>
+        <view class="team_name">
+          <text class="team_table">上传凭证:</text>
+          <view class="box_add_img">
+            <image class="img_add" src="../../assets/icon/upod.png"></image>
+          </view>
+        </view>
+        <view class="btn_box">
+          <view class="btn" bindtap="cancel">
+            取消
+          </view>
+          <view class="btn">
+            提交
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

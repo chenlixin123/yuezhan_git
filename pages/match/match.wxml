@@ -103,6 +103,6 @@
       发起人：张三丰
     </view>
   </view>
-  <view class="content_btn" bindtap="challenge">加入</view>
+  <view class="content_btn" catchtap="challenge">加入</view>
 </view>
 </view>

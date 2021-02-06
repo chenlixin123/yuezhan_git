@@ -1,0 +1,45 @@
+<view class="box">
+  <image class="background_img" src="/assets/image/background_img.png"></image>
+  <view class="money_number">
+    100
+    <image class="money_img" src="../../assets/icon/money.png"></image>
+  </view>
+  <view class="money_text">
+    账户余额
+  </view>
+  <view class="recharge">充值套餐</view>
+  <view class="money_box">
+      <view class="moneys">
+        <image class="moneys_img" src="../../assets/icon/money.png"></image>
+        <view class="moneys_text">10</view>
+      </view>
+      <view class="moneys">
+        <image class="moneys_img" src="../../assets/icon/money.png"></image>
+        <view class="moneys_text">100</view>
+      </view>
+
+      <view class="moneys">
+        <image class="moneys_img" src="../../assets/icon/money.png"></image>
+        <view class="moneys_text">300</view>
+      </view>
+
+      <view class="moneys">
+        <image class="moneys_img" src="../../assets/icon/money.png"></image>
+        <view class="moneys_text">500</view>
+      </view>
+
+      <view class="moneys">
+        <image class="moneys_img" src="../../assets/icon/money.png"></image>
+        <view class="moneys_text">1000</view>
+      </view>
+
+      <view class="moneys">
+        <image class="moneys_img" src="../../assets/icon/money.png"></image>
+        <view class="moneys_text">2000</view>
+      </view>
+      
+  </view>
+  <view class="Recharge_btn">
+    充值1元
+  </view>
+</view>

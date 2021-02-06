@@ -1,0 +1,86 @@
+<view class="box">
+  <image class="background_img" src="/assets/image/background_img.png"></image>
+  <view class="box_white">
+    <view class="box_white_top">
+      <view class="box_white_left">
+        <image class="left_img" src="../../assets/image/user_img.jpg"></image>
+        <view>名称：小明</view>
+        <view>ID：976969</view>
+      </view>
+      <view class="box_white_center">
+        <view>VS</view>
+      </view>
+      <view class="box_white_right">
+        <image class="right_img" src="../../assets/image/user_img.jpg"></image>
+        <view>名称：小明</view>
+        <view>ID：976969</view>
+      </view>
+    </view>
+    <view class="challenge_title">挑战进度</view>
+    <view class="weui-progress" style="width:90%;margin:0 auto;margin-top:20rpx;position: relative;" >
+			<view class="weui-progress__bar" style="height:30rpx;border-radius:50rpx;">
+				<view class="weui-progress__inner-bar js_progress" style="width: {{width}};border-radius:50rpx;background:#1EAEA4;"></view>
+      </view>
+        <view class="small_box">
+          <view class="weui_par"></view>
+      <view class="weui_text">已创建</view>
+        </view>
+        <view class="small_box1">
+          <view class="weui_par"></view>
+      <view class="weui_text">待开始</view>
+        </view>
+        <view class="small_box2">
+          <view class="weui_par"></view>
+      <view class="weui_text">进行中</view>
+        </view>
+        <view class="small_box3">
+          <view class="weui_par"></view>
+      <view class="weui_text">已结束</view>
+        </view>
+    </view>
+    <view class="challenge_title1">挑战详情</view>
+    <view class="challenge_details">
+      <view class="challenge_details_user"> <text>北理工LOL王者战队</text><text style="margin-left:30rpx;">个人</text></view>
+      <view>挑战项目：LOL</view>
+      <view>挑战赛制：BO1</view>
+      <view>挑战时间：2021.10.25 10:00:00</view>
+    </view>
+    <view class="challenge_title">挑战规则</view>
+    <view style="margin-left:30rpx;color:white;font-size:28rpx;margin-top:10rpx;">挑战规则挑战规则挑战规则挑战规则挑战规则挑战规则挑战规则挑战规则挑战规则挑战规则</view>
+  </view>
+  <view class="box_btn">
+    <view class="btn_success" bindtap="btn_success">
+    提交结果
+  </view>
+  </view>
+  <view class="frame_box" wx:if="{{show}}">
+    <view class="frame">
+      <view class="center">
+        <view class="team_name">
+          <text class="team_table">游戏昵称:</text><view style="width:70%;margin-left:30rpx;font-size:28rpx;">小明</view>
+        </view>
+        <view class="team_name">
+          <text class="team_table">游戏ID:</text><view style="width:70%;margin-left:30rpx;font-size:28rpx;">19818992486419419</view>
+        </view>
+        <view class="team_name">
+          <text class="team_table">联系方式:</text><input class="input" type="text"
+            placeholder-style="color:#cdcdcd;font-size:30rpx;margin-left:10rpx;" placeholder="QQ、微信、电话"></input>
+        </view>
+        <view class="team_name">
+          <text class="team_table">上传凭证:</text>
+          <view class="box_add_img">
+            <image class="img_add" src="../../assets/icon/upod.png"></image>
+          </view>
+        </view>
+        <view class="btn_box">
+          <view class="btn" bindtap="cancel">
+            取消
+          </view>
+          <view class="btn">
+            提交
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

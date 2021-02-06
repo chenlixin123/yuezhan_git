@@ -56,4 +56,32 @@
     <ec-canvas ec="{{ ecLine2 }}"></ec-canvas>
   </view>
   </view>
+  <view class="achievements">
+    <view class="achievements_title">历史战绩</view>
+    <view class="achievements_titles">
+      <view class="achievements_title_small">序号</view>
+      <view class="bottom_titles">对战方</view>
+      <view class="achievements_title_small">胜败</view>
+      <view class="achievements_title_small">信用值</view>
+      <view class="achievements_title_small">游戏币</view>
+    </view>
+    <view class="bottoms" wx:for="{{data}}">
+    <view class="bottom_title">
+      {{index + 1}}
+    </view>
+    <view class="bottom_titles">
+      <image class="bottom_user_img" src="../../assets/image/user_img.jpg"></image>
+      <view class="bottom_user_name">转身一世琉璃白55555555555</view>
+    </view>
+    <view class="bottom_title">
+      胜利
+    </view>
+    <view class="bottom_title">
+      +1
+    </view>
+    <view class="bottom_title">
+      5000
+    </view>
+  </view>
+  </view>
 </view>

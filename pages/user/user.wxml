@@ -15,19 +15,19 @@
     </view>
     <!-- <image class="user_details" src="../../assets/icon/big(1).png"></image> -->
   </view>
-  <view class="my_wallet">
+  <view class="my_wallet" bindtap="my_wallet">
     <view class="my_wallet_text">我的钱包</view>
     <image class="my_wallet_img" src="../../assets/icon/big(1).png"></image>
   </view>
-  <view class="my_wallets">
+  <view class="my_wallets" bindtap="my_challenge">
     <view class="my_wallet_text">我的挑战</view>
     <image class="my_wallet_img" src="../../assets/icon/big(1).png"></image>
   </view>
-  <view class="my_wallets">
+  <view class="my_wallets" bindtap="my_match">
     <view class="my_wallet_text">我的比赛</view>
     <image class="my_wallet_img" src="../../assets/icon/big(1).png"></image>
   </view>
-  <view class="my_wallet">
+  <view class="my_wallet" bindtap="exchange">
     <view class="my_wallet_text">兑换记录</view>
     <image class="my_wallet_img" src="../../assets/icon/big(1).png"></image>
   </view>

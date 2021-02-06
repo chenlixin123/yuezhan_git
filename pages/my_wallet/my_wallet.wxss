@@ -1,0 +1,70 @@
+.money_number{
+  width: 100%;
+  font-size: 100rpx;
+  margin-top: 30rpx;
+  color: white;
+  text-align: center;
+  position: relative;
+  /* border: 1px solid; */
+}
+.money_text{
+  width: 100%;
+  font-size: 40rpx;
+  color: white;
+  text-align: center;
+  margin-top: -20rpx;
+  /* border: 1px solid; */
+}
+.money_img{
+  width: 90rpx;
+  height: 90rpx;
+  position: absolute;
+  top: 25%;
+  left:20%;
+}
+.recharge{
+  font-size: 35rpx;
+  font-weight: bold;
+  margin-left: 30rpx;
+  margin-top: 50rpx;
+  margin-bottom: 30rpx;
+  color: white;
+}
+.money_box{
+  width: 91%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /* border: 1px solid; */
+}
+.moneys{
+  width:30%;
+  height: 90rpx;
+  border: 1px solid #C5A2D8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30rpx;
+}
+.moneys_img{
+  width: 50rpx;
+  height: 50rpx;
+}
+.moneys_text{
+  color: white;
+  margin-left: 10rpx;
+  font-size: 38rpx;
+}
+.Recharge_btn{
+  width: 100%;
+  height: 100rpx;
+  color: white;
+  text-align: center;
+  line-height: 100rpx;
+  background: #34BEC3;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  font-weight: bold;
+}
