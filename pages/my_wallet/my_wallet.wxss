@@ -41,7 +41,8 @@
 .moneys{
   width:30%;
   height: 90rpx;
-  border: 1px solid #C5A2D8;
+  /* border: 1px solid #C5A2D8; */
+  background: rgba(255, 255, 255, .5);
   display: flex;
   align-items: center;
   justify-content: center;

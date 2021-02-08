@@ -22,7 +22,7 @@ page{background-color:#f9f8f9;}
   align-items: center;
   font-size: 23rpx;
   font-weight: 400;
-  background: #C069FA;
+  background: rgba(255, 255, 255, .5);
   position: relative;
 }
 .content_text{
